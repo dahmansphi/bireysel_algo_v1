@@ -70,6 +70,17 @@ You should then be able to use the package. You may want to confirm the installa
 ```
 pip show bireysel_algo
 ```
+The result then shall be as:
+
+```
+Name: bireysel_algo
+Version: 2.0.0
+Summary: TEST ON Bireysel METHOD FOR CLASSIFICATION PROBLEMS
+Home-page: https://github.com/dahmansphi/bireysel_algo_v1.git
+Author: Dr. Deniz Dahman's
+Author-email: dahmansphi@gmail.com
+```
+
 
 # Future release 
 
