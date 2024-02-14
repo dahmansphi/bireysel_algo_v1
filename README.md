@@ -145,7 +145,13 @@ the `save_model()` which expects of course the path to where to save
 ### third step:
 of course it's time now to load that saved model which hass the 5 parameters the bireysel_algo relays on.
 we first of course create a new instance from the `BireyselValue` then call the `load_model()`. you have 
-an option to view the details on that loaded model as well calling the `loaded_model_summary()`
+an option to view the details on that loaded model as well calling the `loaded_model_summary()`.
+screenshots illustrate that.
+
+![Screenshot of the load_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/load.png)
+![Screenshot of the summary_load_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/summary_loaded_model.png)
+
+### Fourth step
 
 
 
