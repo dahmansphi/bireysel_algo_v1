@@ -33,9 +33,9 @@ line of difference between **subjectivism**, and **objectivism**, and that is th
 In mathematics, we tend to convert everything into set of numbers, yet to understand the _behavior_ and the _structure_
 of those numbers, and finally, we just see how things are grouped.  
 To this end, I introduce **a new method of classification** that is **Bireysel Algorithm**. _Bireysel_ in Turkish language it means **(individual, personal)**. The method is structured based on _three blocks_, 
-- [ ] the building block, 
-- [ ] the training block, 
-- [ ] and the prediction block. 
+- [x] the building block, 
+- [x] the training block, 
+- [x] and the prediction block. 
 It basically, relays on **4 characteristics**, I call them _the personal profile_. To learn the details of this method please check out _the official academic publication_ found in the reference.   
 
  
