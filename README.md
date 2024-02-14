@@ -98,6 +98,21 @@ Since this is the **first edition** as a testing block for the method, you will 
 the only _active_ function for prediction is **predict_test**. To this end you need to make sure:
 > 1. The **training** dataset is separated from the class vector. i.e. you should have the ds and the cls. Where the shape of ds should be m x n and the cls should be m x 1  
 > 2. The **test** dataset is separated from the class vector. i.e. you should have the ds_test and the cls_test. Where the shape of ds_test should be m x n and the cls_test should be m x 1. 
+> 3. both training and testing dataset shall be of numpy type dataset.
+
+### detour in the bireysel_algo package
+Once your installation is done, and you have met all the conditions, then you may want to check 
+the build-in functions of the bireysel_algo and understand each.  
+Essentially, if you create an instance from the bireysel_algo as so: 
+
+```
+from bireysel_algo.bireysel_algo import BireyselValue
+inst = BireyselValue()
+```
+now this **inst** instance offers you access to those build in functions that you need. 
+this is a screenshot:
+
+![Screenshot of build-in functions of the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/bireysel_funs.png)
 
 That all set and find, then follow the steps as:
 
