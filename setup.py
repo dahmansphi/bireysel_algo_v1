@@ -39,8 +39,7 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Build Tools",
         # Pick your license as you wish
-        "License :: GPL-3.0 License",
-        
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3"
     ],
     
