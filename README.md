@@ -21,6 +21,7 @@ If you prefer any other way of contribution, please feel free to contact me dire
 
 # Introduction
 
+## The Bireysel Algorithm
 Classification is something that exists in nature in a very mysterious way. In fact, I do believe that 
 our evolution in some way is related to the __principle of classification__. See, we like to classify things,
 sometimes, we use a set of **adjectives** e.g. the good one, the bad one, the far one the close one, etc. 
@@ -39,9 +40,16 @@ To this end, I introduce **a new method of classification** that is **Bireysel A
 
 It basically, relays on **4 characteristics**, I call them _the personal profile_. To learn the details of this method please check out _the official academic publication_ found in the reference.   
 
- 
-
- 
+## bireysel_algo_v1 package
+As scientists we must be **skeptical**. Not in a destructive way but in a constructive way, so to speak. 
+So, the best approach to be a constructive scientist is to build your research first in an **abstract way** 
+then in a **concrete way**. To this end, I have proposed the method and its structure, yet, I had to introduce 
+a _concrete_ measure on that proposal, and that is **the purpose of this package**. This package is the _first edition_
+of the Bireysel Algorithm, official released name **bireysel_algo_v1**. This package will serve as a **testing** tool 
+on the proposed method, of its first edition. In other words, **not yet for a production capacity**, but rather for 
+**research and development** purposes ONLY. The essential finding on accuracy of prediction is _very much promising_. 
+In future releases, enhancement of extra features will be added, and yet to be tested. 
+To this end, you may feel free to follow the set-up instructions as the following sections suggest. 
 
 # Installation 
 
