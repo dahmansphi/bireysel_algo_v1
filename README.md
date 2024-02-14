@@ -35,7 +35,7 @@ of those numbers, and finally, we just see how things are grouped.
 To this end, I introduce **a new method of classification** that is **Bireysel Algorithm**. _Bireysel_ in Turkish language it means **(individual, personal)**. The method is structured based on _three blocks_, 
 - [x] the building block, 
 - [x] the training block, 
-- [x] and the prediction block. 
+- [x] and the prediction block.  
 It basically, relays on **4 characteristics**, I call them _the personal profile_. To learn the details of this method please check out _the official academic publication_ found in the reference.   
 
  
