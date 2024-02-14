@@ -81,7 +81,7 @@ Author: Dr. Deniz Dahman's
 Author-email: dahmansphi@gmail.com
 ```
 
-## Employ the bireysel_algo
+## Employ the bireysel_algo-Conditions
 
 > [!IMPORTANT]
 > It’s mandatory, to use the first edition of bireysel_algo, to make sure the training dataset meets the conditions: 
@@ -100,7 +100,7 @@ the only _active_ function for prediction is **predict_test**. To this end you n
 > 2. The **test** dataset is separated from the class vector. i.e. you should have the ds_test and the cls_test. Where the shape of ds_test should be m x n and the cls_test should be m x 1. 
 > 3. both training and testing dataset shall be of numpy type dataset.
 
-### detour in the bireysel_algo package
+## Detour in the bireysel_algo package- Build-in
 Once your installation is done, and you have met all the conditions, then you may want to check 
 the build-in functions of the bireysel_algo and understand each.  
 Essentially, if you create an instance from the bireysel_algo as so: 
@@ -113,6 +113,11 @@ now this **inst** instance offers you access to those build in functions that yo
 this is a screenshot:
 
 ![Screenshot of build-in functions of the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/bireysel_funs.png)
+
+here are the details of the right sequence to employ the bireysel_algo:
+
+
+
 
 That all set and find, then follow the steps as:
 
