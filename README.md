@@ -96,7 +96,44 @@ to make _the final prediction_. Essentially, we need a _training dataset_ that t
 then **train**. Eventually, we call on the **predict_test** to test the result. 
 Since this is the **first edition** as a testing block for the method, you will see that 
 the only _active_ function for prediction is **predict_test**. To this end you need to make sure:
-> 1. The training dataset is separated from the class vector. i.e. you should have the ds and the cls. Where the shape of ds should be m x n and the cls should be m x 1  
+> 1. The **training** dataset is separated from the class vector. i.e. you should have the ds and the cls. Where the shape of ds should be m x n and the cls should be m x 1  
+> 2. The **test** dataset is separated from the class vector. i.e. you should have the ds_test and the cls_test. Where the shape of ds_test should be m x n and the cls_test should be m x 1. 
+
+That all set and find, then follow the steps as:
+
+- [x] create a training function
+- [x] create a save model function
+- [x] create a load model function
+- [x] create a test model function
+
+Lest's see each function in action:
+
+### training functino
+the training function expects **four args**:
+1. the training ds
+2. the training class vector
+3. the radius number 0.1 <= r <= 0.99
+4. number of report neighbors, assume 5 
+
+Now, if **elements 3, and 4** sound foreign to you, you should read the academic publication on 
+the method to understand their functions. Once that is done then you expect the function returns **instance** of the bireysel_algo that is **build and trained**. Technically speaking, that is **the model to save**. 
+
+```
+def train_bp_a(ds, cls, radius, report_num):
+    '''this is the first main function on using this package, it expects the ds, cls, and radius, and how many report you wish to see from the neighbors parameter. it basically return the model for saving purpos
+    '''
+    inst = BireyselValue()
+    inst.input_feature(ds=ds, cls=cls)
+    inst.report_input()
+    inst.build(radius=radius)
+    inst.build_report(num=report_num)
+    inst.train()
+    inst.model_summary()
+
+    return inst
+```
+
+
 
 
 # Future release 
