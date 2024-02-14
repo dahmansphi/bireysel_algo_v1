@@ -130,8 +130,12 @@ the neighbors list. once again you may want to the check the publication paper t
 5. **MUST** you cal `train()` this is the third main function that will do the train process
 6. **OPTION** you may call `model_summary()` this function will give you a detail summary on the model 
 
-![Screenshot of build-in functions of the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/train.png)
+![Screenshot of the first sequence to employ the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/train.png)
 
+![Screenshot of the output from the report_input().](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/class_over_lapping.png)
+
+### second step:
+once you have your model and all the report and summary details then you are ready 
 
 
 That all set and find, then follow the steps as:
