@@ -134,8 +134,69 @@ def train_bp_a(ds, cls, radius, report_num):
 
     return inst
 ```
+### saving model function
+This function will save the returned model from the training section. 
+It expects two args and that is **the model** and the **path to save to**.
 
+```
+def save_model(inst,path_save):
+    '''this function basically save the bp_a.v.1.0 model, requrist two args:
+        1. the model to save that should be bp_a model instance
+        2. the path of saving the model
+    '''
+    inst.save_model(file_name=path_save)
+```
+### loading model function
+as the name suggests, we are going to load the model. the function expects ONE **arg**:
+the **path to load from**, and it **returns that model**.
 
+```
+def load_model(path_load):
+    '''this function basically load the bp_a.v.1.0 model and return it, requires the path of the model to load'''
+    model_path = path_load
+    model = BireyselValue()
+    model.load_model(model_path=model_path)
+    model.loaded_model_summary()
+    return model
+```
+
+### testing prediction function
+this is the final function to test the model. basically this function expects three args:
+the **model** which has been loaded, the **test dataset**, and finally the **vector class**.
+that is done then you feed all to the function, and you expect the result will be printed on the terminal.
+
+```
+def test_bp_a(model, ds_test, cls_test):
+    '''this function execute the test on bp_a. requires:
+        1. model
+        2. ds test
+        3. cls test
+        both must be following the loaded model summary
+    '''
+    model.predict_test(input_test_feature=ds_test, cls_test_feature=cls_test)
+```
+Finally, you expected a printed report with accuracy on the terminal as:
+
+```
+__________________________________________
+*****************END*********************************
+predict by neighbors :*********************
+[0.30769231 0.         0.69230769]
+actul is  2 predict 2
+__________________________________________
+*****************END*********************************
+predict by neighbors :*********************
+[0. 0. 1.]
+actul is  2 predict 2
+__________________________________________
+*****************END*********************************
+predict by neighbors :*********************
+[0.63636364 0.         0.36363636]
+actul is  2 predict 0
+__________________________________________
+*****************END*********************************
+ Your prediction test has accuracy of **94.73684210526315 %**, by neighbors:
+```
 
 
 # Future release 
