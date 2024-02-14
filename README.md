@@ -114,8 +114,23 @@ this is a screenshot:
 
 ![Screenshot of build-in functions of the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/bireysel_funs.png)
 
-here are the details of the right sequence to employ the bireysel_algo:
+Once you have bireysel_algo instance, here are the details of the right sequence to employ the bireysel_algo:
 
+### first step:
+the train block. you must:
+1. **MUST** call the `input_feature()` which expect two args the _ds_ and the _cls_ vector class
+2. **OPTION** you can call `report_input()` which will give a comrehensive report on the ds and visual graph on 
+the class overlapping status, see the screenshot below
+3. **MUST** you call `build()` this main function expects one argument that is the radius which must 
+be within range
+0.1 <= r <= 0.99. the function of the radius can be understood from the acadamic publication of 
+the bireysel algo refere to the reference
+4. **OPTION** you may cal `build_report()` this function expect arg as number that will display a sample of 
+the neighbors list. once again you may want to the check the publication paper to understand the ns. 
+5. **MUST** you cal `train()` this is the third main function that will do the train process
+6. **OPTION** you may call `model_summary()` this function will give you a detail summary on the model 
+
+![Screenshot of build-in functions of the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/train.png)
 
 
 
