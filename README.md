@@ -52,6 +52,13 @@ In future releases, enhancement of extra features will be added, and yet to be t
 To this end, you may feel free to follow the set-up instructions as the following sections suggest. 
 
 # Installation 
+> [!TIP]
+> The first edition bireysel_algo_v1 is tested on several **problematic** datasets. What I mean by problematic is 
+a dataset with **extreme overlapping behaviors** across classes and has **insufficient** classification **accuracy** 
+using other classification methods. Those sets have various dimensions that go as high as _13000 observations_ 
+and _36 variables_. I employed the method using a very **basic machine capacity** that today’s industry can offer. 
+To conclude, you **don’t need any advanced hardware capacity** but only basic ones. 
+In addition, you make sure you have Python 3 or above version.
 
 # Future release 
 
