@@ -18,7 +18,7 @@ setup(
     # And where it will live on PyPI: https://pypi.org/project/sampleproject/
     #
     name="bireysel_algo",  # Required
-    version="1.0",  # Required
+    version="2.0.0",  # Required
     
     description="TEST ON Bireysel METHOD FOR CLASSIFICATION PROBLEMS",  # Optional
     long_description=long_description,  # Optional
