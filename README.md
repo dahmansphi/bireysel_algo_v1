@@ -83,6 +83,9 @@ Author-email: dahmansphi@gmail.com
 
 ## Employ the bireysel_algo
 
+> [!IMPORTANT]
+> It’s mandatory, to use the first edition of bireysel_algo, to make sure the training dataset meets the conditions: 1. Number of observations > 40 per class 2. Number of variables > 2 3. Number of classes >= 2. Once these conditions are met then you may employ the bireysel_algo. Anyway, the package has a condition built in to make sure those conditions are met. 
+
 
 # Future release 
 
