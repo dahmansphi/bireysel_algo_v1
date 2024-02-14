@@ -1,6 +1,6 @@
 # About the Package
 ## Author's Words
-```
+
 Welcome to **the first Edition of the _Bireysel_ Algorithm** official documentation. I am Dr. Deniz Dahman 
 the creator of the Bireysel algorithm and the author of this package. In the following section you 
 will have a brief introduction on the principal idea of the Bireysel algorithm. 
@@ -8,7 +8,7 @@ In addition, a reference to the academic publication on the method. Before going
 to let you know that I have done this work as an independent scientist without any fund or similar capacity. 
 I am dedicated to proceeding and seek further improvement of the proposed method at all costs. 
 To this end if you wish to contribute in any way to this work, please find further details  in the contributing section.  
-```  
+  
 ## Contributing 
 
     
