@@ -63,8 +63,14 @@ In addition, you make sure you have Python 3 or above version.
 ## Install bireysel_algo_v1pypi-AgENdGVzdC5weXBpLm9yZwIkMzQyNTg4ZjItYmRlMS00ZDk3LWExYmYtNDZjZWIyNjJlOWExAAIqWzMsImNmYjU4OTgzLWExYzktNGUyMy05Y2IxLTk2ZmJkNWJjODFlZiJdAAAGIBUTqS8rYVHHk_P-TzASg_kfhTYNheI9dPESBF3sNMeb
 to install the package all what you have to do:
 ```
-pip install git+https://github.com/dahmansphi/bireysel_algo_v1.git
+pip install bireysel-algo
 ```
+You should then be able to use the package. You may want to confirm the installation
+
+```
+pip show bireysel_algo
+```
+
 # Future release 
 
 

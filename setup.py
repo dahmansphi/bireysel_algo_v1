@@ -18,7 +18,7 @@ setup(
     # And where it will live on PyPI: https://pypi.org/project/sampleproject/
     #
     name="bireysel_algo",  # Required
-    version="1.0.0",  # Required
+    version="1.0",  # Required
     
     description="TEST ON Bireysel METHOD FOR CLASSIFICATION PROBLEMS",  # Optional
     long_description=long_description,  # Optional
@@ -28,6 +28,8 @@ setup(
     
     author="Dr. Deniz Dahman's",  # Optional
     author_email="dahmansphi@gmail.com",  # Optional
+    License = "GPL-3.0",
+    Requires = "None",
     # Classifiers help users find your project by categorizing it.
     classifiers=[  # Optional
         # How mature is this project? Common values are
