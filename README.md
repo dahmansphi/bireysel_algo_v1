@@ -199,11 +199,37 @@ __________________________________________
 ```
 
 
+### call the four functions
+you may follow this block to on the previous functions:
+
+```
+# train model
+inst = train_bp_a(ds=ds, cls=cls, radius=0.2, report_num=5)
+
+# save the model
+save_model(path_save=path_to_save, inst=inst)
+
+# load model
+model = load_model(path_load=path_to_load)
+
+# test model
+test_bp_a(ds_test=ds_test, cls_test=cls_test, model=model)
+```
+
+## Conclusion on installation and employing 
+As I have mentioned, there are strong and promising results, so far, have been shown 
+employing the proposed method. The results of accuracy on problematic datasets had ranged 
+between 80% up to 98%. I would like to draw your attention to the fact that I **DIDN’T DO ANY CLEANING** 
+whatsoever on the datasets. The reason is yet **to prove the potential of the method**. 
+In other words, those result of accuracy is just **pure** with no cleaning or similar actions. 
+So, what is next?. 
+
 # Future release 
 
+In the future release of the bireysel_alg you expect: 
 
-# --- Library setup -----------------------------------------------------------
+1. Activation on the rest of four main characteristics of the method, these are: zone characteristic, and column wise characteristic.  
+2. Expansion on various types of datasets such as images, and such.  
+3. To have extra functions that will take care to prepare the dataset for you instead of manual preparation, such splitting the dataset and class vector.  
 
-# When importing from the root of the unpacked tarball or git checkout,
-# Python sees the "h5py" source directory and tries to load it, which fails.
-# We tried working around this by using "package_dir" but that breaks Cython.
+Thank you for your interest in trying the method and keep following future releases.
