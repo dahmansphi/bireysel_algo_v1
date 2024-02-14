@@ -153,10 +153,20 @@ screenshots illustrate that.
 
 ### Fourth step
 
+finally what you aim for, the classification step calling `predict_test()` this function expect two args:
+the test_ds, and the cls_test vector. the reason that is only predicting test is explaind below sections. 
+resul as the graph illustrates
+![Screenshot of the test_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/test.png)
+
+![Screenshot of the test_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/test_resu.png)
 
 
 
-That all set and find, then follow the steps as:
+
+## Optional way to employ bireysel_algo
+
+If you like, I may suggest this way of employing the pacakge, for testing purpose.
+basically we can relay on creatin functions. follow the steps as:
 
 - [x] create a training function
 - [x] create a save model function
