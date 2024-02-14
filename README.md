@@ -120,7 +120,7 @@ Once you have bireysel_algo instance, here are the details of the right sequence
 the train block. you must:
 1. **MUST** call the `input_feature()` which expect two args the _ds_ and the _cls_ vector class
 2. **OPTION** you can call `report_input()` which will give a comrehensive report on the ds and visual graph on 
-the class overlapping status, see the screenshot below
+the class overlapping status, see the screenshots below
 3. **MUST** you call `build()` this main function expects one argument that is the radius which must 
 be within range
 0.1 <= r <= 0.99. the function of the radius can be understood from the acadamic publication of 
@@ -132,10 +132,22 @@ the neighbors list. once again you may want to the check the publication paper t
 
 ![Screenshot of the first sequence to employ the bireysel_algo.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/train.png)
 
+![Screenshot of the output from the report_input().](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/input_report_train.png)
+
 ![Screenshot of the output from the report_input().](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/class_over_lapping.png)
 
 ### second step:
-once you have your model and all the report and summary details then you are ready 
+once you have your model and all the report and summary details then you are ready. so you have to call then
+the `save_model()` which expects of course the path to where to save
+
+![Screenshot of the save model_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/save.png)
+
+### third step:
+of course it's time now to load that saved model which hass the 5 parameters the bireysel_algo relays on.
+we first of course create a new instance from the `BireyselValue` then call the `load_model()`. you have 
+an option to view the details on that loaded model as well calling the `loaded_model_summary()`
+
+
 
 
 That all set and find, then follow the steps as:
