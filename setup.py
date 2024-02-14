@@ -45,9 +45,9 @@ setup(
     
     keywords="classification, bireysel, machine learning",  # Optional
     
-    package_dir={"": "bireysel_algo_v1"},  # Optional
+    package_dir={"": "src"},  # Optional
     #
-    packages=find_packages(where="bireysel_algo_v1"),  # Required
+    packages=find_packages(where="src"),  # Required
     
     python_requires=">=3.9",
     # This field lists other packages that your project depends on to run.
