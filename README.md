@@ -60,7 +60,7 @@ and _36 variables_. I employed the method using a very **basic machine capacity*
 To conclude, you **don’t need any advanced hardware capacity** but only basic ones. 
 In addition, you make sure you have Python 3 or above version.
 
-## Install bireysel_algo_v1pypi-AgENdGVzdC5weXBpLm9yZwIkMzQyNTg4ZjItYmRlMS00ZDk3LWExYmYtNDZjZWIyNjJlOWExAAIqWzMsImNmYjU4OTgzLWExYzktNGUyMy05Y2IxLTk2ZmJkNWJjODFlZiJdAAAGIBUTqS8rYVHHk_P-TzASg_kfhTYNheI9dPESBF3sNMeb
+## Install bireysel_algo
 to install the package all what you have to do:
 ```
 pip install bireysel-algo
@@ -80,6 +80,8 @@ Home-page: https://github.com/dahmansphi/bireysel_algo_v1.git
 Author: Dr. Deniz Dahman's
 Author-email: dahmansphi@gmail.com
 ```
+
+## Employ the bireysel_algo
 
 
 # Future release 
