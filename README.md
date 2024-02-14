@@ -91,6 +91,13 @@ Author-email: dahmansphi@gmail.com
 
 > Once these conditions are met then you may employ the bireysel_algo. Anyway, the package has a condition built in to make sure those conditions are met. 
 
+As I have mentioned in the introduction, there are **three blocks** for the bireysel_algo 
+to make _the final prediction_. Essentially, we need a _training dataset_ that the package will **build**, 
+then **train**. Eventually, we call on the **predict_test** to test the result. 
+Since this is the **first edition** as a testing block for the method, you will see that 
+the only _active_ function for prediction is **predict_test**. To this end you need to make sure:
+> 1. The training dataset is separated from the class vector. i.e. you should have the ds and the cls. Where the shape of ds should be m x n and the cls should be m x 1  
+
 
 # Future release 
 
