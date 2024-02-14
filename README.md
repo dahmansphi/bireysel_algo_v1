@@ -120,7 +120,9 @@ the method to understand their functions. Once that is done then you expect the 
 
 ```
 def train_bp_a(ds, cls, radius, report_num):
-    '''this is the first main function on using this package, it expects the ds, cls, and radius, and how many report you wish to see from the neighbors parameter. it basically return the model for saving purpos
+    '''this is the first main function on using this package, it expects 
+    the ds, cls, and radius, and how many report you wish to see from the neighbors parameter. 
+    it basically return the model for saving purpos
     '''
     inst = BireyselValue()
     inst.input_feature(ds=ds, cls=cls)
