@@ -37,7 +37,7 @@ setup(
         "Development Status :: 3 - Alpha",
         # Indicate who your project is intended for
         "Intended Audience :: Developers",
-        "Topic :: Artificial Intelligence :: Classification Problem",
+        "Topic :: Software Development :: Build Tools",
         # Pick your license as you wish
         "License :: GPL-3.0 License",
         
