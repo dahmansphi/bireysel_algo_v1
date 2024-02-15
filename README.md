@@ -184,7 +184,7 @@ the training function expects **four args**:
 4. number of report `neighbors, assume 5` 
 
 Now, if **elements 3, and 4** sound foreign to you, you should read the academic publication on 
-the method to understand their functions. Once that is done then you expect the function returns **instance** of the bireysel_algo that is **build and trained**. Technically speaking, that is **the model to save**. 
+the method to understand their functions. Once that is done then you expect the function `returns` **instance** of the bireysel_algo that is **build and trained**. Technically speaking, that is **the model to save**. 
 
 ```
 def train_bp_a(ds, cls, radius, report_num):
@@ -199,11 +199,13 @@ def train_bp_a(ds, cls, radius, report_num):
     inst.build_report(num=report_num)
     inst.train()
     inst.model_summary()
+    
+    return inst
 ```
-    `return inst`
+    
 
 ### saving model function
-This function will save the returned model from the training section. 
+This function will save **the returned model** from the training section. 
 It expects two args and that is **the model** and the **path to save to**.
 
 ```
@@ -216,7 +218,7 @@ def save_model(inst,path_save):
 ```
 ### loading model function
 as the name suggests, we are going to load the model. the function expects ONE **arg**:
-the **path to load from**, and it **returns that model**.
+the **path to load from**, and it `returns` **that model**.
 
 ```
 def load_model(path_load):
@@ -263,11 +265,13 @@ predict by neighbors :*********************
 actul is  2 predict 0
 __________________________________________
 *****************END*********************************
+```
+```
  Your prediction test has accuracy of **94.73684210526315 %**, by neighbors:
 ```
 
 
-### call the four functions
+### call the four functions- `main()`
 you may follow this block to on the previous functions:
 
 ```
