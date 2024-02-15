@@ -112,7 +112,7 @@ inst = BireyselValue()
 now this **inst** instance offers you access to those build in functions that you need. 
 this is a screenshot:
 
-![Screenshot of build-in functions of the bireysel_algo.](/assets/imgs/bireysel_funs.png)
+![Screenshot of build-in functions of the bireysel_algo.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/bireysel_funs.png)
 
 Once you have bireyselvalue instance, here are the details of the right sequence to employ the bireyselvalue:
 
@@ -130,17 +130,17 @@ the neighbors list. once again you may want to the check the publication paper t
 5. **MUST** you cal `train()` this is the third main function that will do the train process
 6. **OPTION** you may call `model_summary()` this function will give you a detail summary on the model 
 
-![Screenshot of the first sequence to employ the bireyselvalue.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/train.png)
+![Screenshot of the first sequence to employ the bireyselvalue.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/train.png)
 
-![Screenshot of the output from the report_input().](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/input_report_train.png)
+![Screenshot of the output from the report_input().](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/input_report_train.png)
 
-![Screenshot of the output from the report_input().](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/class_over_lapping.png)
+![Screenshot of the output from the report_input().](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/class_over_lapping.png)
 
 ### second step:
 once you have your model and all the report and summary details then you are ready. so you have to call then
 the `save_model()` which expects of course the path to where to save
 
-![Screenshot of the save model_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/save.png)
+![Screenshot of the save model_model() fun.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/save.png)
 
 ### third step:
 of course it's time now to load that saved model which hass the 5 parameters the bireyselvalue relays on.
@@ -148,17 +148,17 @@ we first of course create a new instance from the `BireyselValue` then call the 
 an option to view the details on that loaded model as well calling the `loaded_model_summary()`.
 screenshots illustrate that.
 
-![Screenshot of the load_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/load.png)
-![Screenshot of the summary_load_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/summary_loaded_model.png)
+![Screenshot of the load_model() fun.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/load.png)
+![Screenshot of the summary_load_model() fun.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/summary_loaded_model.png)
 
 ### Fourth step
 
 finally what you aim for, the classification step calling `predict_test()` this function expect two args:
 the test_ds, and the cls_test vector. the reason that is only predicting test is explaind below sections. 
 resul as the graph illustrates
-![Screenshot of the test_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/test.png)
+![Screenshot of the test_model() fun.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/test.png)
 
-![Screenshot of the test_model() fun.](https://github.com/dahmansphi/bireysel_algo_v1/blob/main/assets/imgs/test_resu.png)
+![Screenshot of the test_model() fun.](https://raw.githubusercontent.com/dahmansphi/bireyselvalue_v1/main/assets/imgs/test_resu.png)
 
 
 
