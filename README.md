@@ -6,7 +6,7 @@ the creator of the BireyselValue algorithm and the author of this package. In th
 will have a brief introduction on the principal idea of the BireyselValue algorithm. 
 In addition, a reference to the academic publication on the method. Before going ahead, I would like 
 to let you know that I have done this work as an independent scientist without any fund or similar capacity. 
-I am dedicated to proceeding and seek further improvement of the proposed method at all costs. 
+I am dedicated to proceeding and seek further improvement on the proposed method at all costs. 
 To this end if you wish to contribute in any way to this work, please find further details  in the contributing section.  
   
 ## Contributing 
@@ -74,7 +74,7 @@ The result then shall be as:
 
 ```
 Name: bireyselvalue
-Version: 2.0.0
+Version: 1.0.0
 Summary: TEST ON V.1 of THE BireyselValue Algorithm FOR CLASSIFICATION PROBLEMS
 Home-page: https://github.com/dahmansphi/bireyselvalue_v1
 Author: Dr. Deniz Dahman's
