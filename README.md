@@ -199,9 +199,9 @@ def train_bp_a(ds, cls, radius, report_num):
     inst.build_report(num=report_num)
     inst.train()
     inst.model_summary()
-
-    `return inst`
 ```
+    `return inst`
+
 ### saving model function
 This function will save the returned model from the training section. 
 It expects two args and that is **the model** and the **path to save to**.
