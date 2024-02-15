@@ -180,8 +180,8 @@ Lest's see each function in action:
 the training function expects **four args**:
 1. the training ds
 2. the training class vector
-3. the radius number 0.1 <= r <= 0.99 `#0969DA`
-4. number of report neighbors, assume 5  `#0969DA`
+3. the radius number `0.1 <= r <= 0.99`
+4. number of report `neighbors, assume 5` 
 
 Now, if **elements 3, and 4** sound foreign to you, you should read the academic publication on 
 the method to understand their functions. Once that is done then you expect the function returns **instance** of the bireysel_algo that is **build and trained**. Technically speaking, that is **the model to save**. 
@@ -200,7 +200,7 @@ def train_bp_a(ds, cls, radius, report_num):
     inst.train()
     inst.model_summary()
 
-    return inst `#0969DA`
+    `return inst`
 ```
 ### saving model function
 This function will save the returned model from the training section. 
