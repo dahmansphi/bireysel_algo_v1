@@ -305,3 +305,8 @@ In the future release of the bireyselvalue you expect:
 3. To have extra functions that will take care to prepare the dataset for you instead of manual preparation, such splitting the dataset and class vector.  
 
 Thank you for your interest in trying the method and keep following future releases.
+
+# Reference
+
+please follow up on the project page to find the academic published paper on the method
+[bireyselvalue](https://github.com/dahmansphi/bireyselvalue_v1)
