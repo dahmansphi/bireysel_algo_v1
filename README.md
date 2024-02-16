@@ -309,4 +309,4 @@ Thank you for your interest in trying the method and keep following future relea
 # Reference
 
 please follow up on the project page to find the academic published paper on the method
-[bireyselvalue](https://github.com/dahmansphi/bireyselvalue_v1)
+[bireyselvalue](https://github.com/dahmansphi/bireyselvalue_v1) project. 
